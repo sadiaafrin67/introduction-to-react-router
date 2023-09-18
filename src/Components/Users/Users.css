@@ -1,0 +1,10 @@
+.users {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+nav a.active {
+   text-decoration: underline; 
+   /* background-color: skyblue; */
+}
